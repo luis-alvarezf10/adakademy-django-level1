@@ -4,14 +4,14 @@
 1. Abrir terminal
 2. Instalar el entorno virtual 
     ```bash
-    `python -m venv .venv`
+    python -m venv .venv
 3. Activar el entorno virtual
     ```bash
-    `.venv\Scripts\activate.ps1`
+    .venv\Scripts\activate.ps1
 4. Inicializar un proyecto django
     ```Bash
-    `# es necesario poner un punto al final ya que esto crea el archivo manage.py (main de pagina web creada)`
-    `django-admin startproject django_project .`
+    # es necesario poner un punto al final ya que esto crea el archivo manage.py (main de pagina web creada)
+    django-admin startproject django_project .
 5. Correr servidor django
     ```bash
     `# deberia salir una linea en la terminal parecido a esto `
